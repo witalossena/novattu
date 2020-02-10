@@ -1,0 +1,142 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap");
+@import "header";
+@import "colors";
+
+html {
+  font: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  &:hover {
+    color: $secondary;
+    transition: color 0.5s ease-in-out;
+  }
+}
+
+.bg-1 {
+  background-color: $dark;
+}
+
+.services {
+  padding: 4rem 0;
+  .container-fluid {
+    margin: 4rem 0;
+    .services-icon {
+      margin: 1rem 0 2rem 0;
+      text-align: center;
+      i {
+        font-size: 3rem;
+        border: $dark 1px solid;
+        border-radius: 50px;
+        padding: 12px;
+      }
+    }
+    .services-text {
+      color: $dark;
+      text-align: center;
+      h4 {
+        font-weight: 600;
+      }
+      p {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.filterbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.filterbtn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.filterbtn.active {
+  background-color: #666;
+  color: white;
+}
+
+.portfolio {
+  min-height: 100%;
+  padding: 2rem 0;
+}
+
+.sobre-nos {
+  height: auto;
+  padding: 0 0 4rem 0;
+  .container-fluid {
+    .about-bg {
+      width: 100%;
+      height: 45vh;
+      background: url("images/about.jpg");
+      background-size: cover;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      .about-text {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+          background-color: $secondary;
+          color: $light;
+          font-weight: 600;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.equipe {
+  padding: 8rem 0;
+  .people {
+    padding: 0 1rem;
+    cursor: pointer;
+    .people-name-area {
+      text-align: center;
+      background-color: $gray;
+    }
+  }
+}
+
+.maps {
+  background-color: $gray;
+  padding: 8rem 0;
+  iframe {
+    height: 435px;
+  }
+  .contato {
+    background-color: $light;
+    padding: 1rem 2rem;
+  }
+}
+
+.site-footer {
+  color: #fff;
+  height: 30vh;
+  padding: 2rem 0;
+  background-color: $dark;
+  .site-logo {
+  }
+  address {
+    ul {
+      li {
+        span {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

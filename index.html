@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="https://kit.fontawesome.com/d5f1cba6ed.js" crossorigin="anonymous"></script>
+    <script src="src/scripts/filter_gallery.js"></script>
+
+    <title>novattu</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">novattu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main-header">
+        <div class="bg-header"></div>
+        <div class="site-heading">
+            <div class="container">
+                <div class="d-table text-left">
+                    <h1>novattu</h1>
+                    <h5>site empresarial personalizado</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container text-center">
+            <div class="section-text">
+                <h1>Nossos serviços</h1>
+                <h5>crie o website da sua empresa agora</h5>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <div class="services-icon">
+                        <i class="far fa-heart"></i>
+                    </div>
+
+                    <div class="services-text">
+                        <h4>html 5 + bootstrap 4</h4>
+                        <p>
+                            ele torna a navegação mais rápida e simples, melhorando a
+                            performance de uma página web. Os desenvolvedores utilizam o
+                            HTML5 para reduzir o tamanho dos arquivos online e com isso
+                            melhorar a experiência do usuário. Por que otimizar nossos Sites
+                            é tão importante? Simplesmente porque nenhum usuário gosta de
+                            perder tempo esperando o carregamento das páginas. É
+                            extremamente irritante.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="services-icon">
+                        <i class="far fa-handshake"></i>
+                    </div>
+
+                    <div class="services-text">
+                        <h4>design limpo</h4>
+                        <p>
+                            Um dos maiores problemas com websites é que eles se tornam
+                            ultrapassados rapidamente. Parece que, assim que você está perto
+                            de finalizar uma atualização, já é hora para outra. Mas não
+                            precisa ser assim. Designs cheios perdem o encanto e tornam-se
+                            datados depress
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="services-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+
+                    <div class="services-text">
+                        <h4>totalmente responsivo</h4>
+                        <p>
+                            Plataformas mobile se tornaram ferramentas importantes de
+                            comercialização dos produtos via comércio eletrônico, e por isso
+                            o empreendedor deve ter um site responsivo. Sites responsivos
+                            são aqueles que adaptam o tamanho das suas páginas (alteração do
+                            layout) ao tamanho das telas que estão sendo exibidos, como as
+                            telas de celulares e tablets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="container text-center">
+            <div class="section-text">
+                <h1>Portfolio</h1>
+                <h5>Com filtro por categorias</h5>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid">
+
+            <div class="btns mb-5">
+                <button class="btn filterbtn active" data-class="all"> Show all</button>
+                <button class="btn filterbtn" data-class="moderno">moderno</button>
+                <button class="btn filterbtn" data-class="popular">popular</button>
+                <button class="btn filterbtn" data-class="super">Super</button>
+            </div>
+
+
+            <div class="row">
+
+                <div class="imagecol col-lg-3" data-class="moderno">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-1.jpg" />
+                    </div>
+                </div>
+                <div class="imagecol col-lg-3" data-class="moderno">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-1.jpg" />
+                    </div>
+                </div>
+                <div class="imagecol col-lg-3" data-class="popular">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-1.jpg" />
+                    </div>
+                </div>
+
+                <div class="imagecol col-lg-3" data-class="popular">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-2.jpg" />
+                    </div>
+                </div>
+
+                <div class="imagecol col-lg-3" data-class="super">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-3.jpg" />
+                    </div>
+                </div>
+                <div class="imagecol col-lg-3" data-class="super">
+                    <div class="images">
+                        <img class="w-100" src="images/portfolio/portfolio-3.jpg" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="sobre-nos">
+        <div class="container-fluid">
+            <div class="about-bg bg-danger">
+                <div class="about-text">
+                    <div class="content container p-3">
+                        <p>Forneça apenas informações úteis sobre o seu negócio como: a quanto tempo a empresa está
+                            no
+                            mercado, qual o nível de experiência da empresa, principal área de atuação, principais
+                            serviços e diferenciais. No entanto, não prolongue muito os fatos passando por cada ano
+                            desde a criação da empresa. Seja objetivo nos fatos e aumente as chances do cliente ler
+                            todo
+                            o texto.
+                            Conte aos clientes qual é a sua história e faça-os entender o valor de contar com a sua
+                            empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipe">
+        <div class="container text-center">
+            <div class="section-text">
+                <h1>Nossa equipe</h1>
+                <h5>Se a sua equipe trabalha ou não com metas,
+                    a motivação é sempre importante e pode ser feita de
+                    diversas maneiras.</h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="people">
+                        <div class="hover">
+                        </div>
+                        <img src="images/people/people1.jfif" class="w-100" alt="">
+                        <div class="people-name-area">
+                            <a href="#">
+                                <p>marcos lucio</p>
+                            </a>
+                            <p class="text-muted">diretor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="people">
+                        <img src="images/people/people1.jfif" class="w-100" alt="">
+                        <div class="people-name-area">
+                            <a href="">
+                                <p>fernando augusto</p>
+                            </a>
+                            <p class="text-muted">gerente de marketing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="people">
+                        <img src="images/people/people1.jfif" class="w-100" alt="">
+                        <div class="people-name-area">
+                            <a href="">
+                                <p>juliano juma</p>
+                            </a>
+                            <p class="text-muted">supervisor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="people">
+                        <img src="images/people/people1.jfif" class="w-100" alt="">
+                        <div class="people-name-area">
+                            <a href="">
+                                <p>Guilherme fagundes</p>
+                            </a>
+                            <p class="text-muted">operacional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="maps">
+        <div class="container text-center">
+            <div class="section-text">
+                <h1>Entre em contato</h1>
+                <h5>Tire suas duvidas</h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.148782135056!2d-46.65657118445365!3d-23.56309936754284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1581295465743!5m2!1spt-BR!2sbr"
+                        width="100%" height="" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-md-5">
+                    <div class="contato">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">Nome</label>
+                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Seu nome">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="exampleFormControlTextarea1">Sua mensagem</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-secondary mb-2">Enviar</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="site-logo">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
+                    <div class="site-about">
+                        <div class="container">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ligula dapibus purus
+                            eleifend porta. Fusce pellentesque, dolor eget luctus rutrum, nisi risus interdum neque, at
+                            eleifend erat lacus suscipit arcu. Sed convallis turpis at enim sollicitudin dapibus.
+                            Maecenas lacinia felis quis velit auctor pulvinar.
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ultimos-projetos">
+
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ultimos posts">
+                        <h4>ultimos posts</h4>
+                        <ul class="list-unstyled">
+                            <a href="">
+                                <li>melhores produtos</li>
+                            </a>
+                            <a href="">
+                                <li>melhores produtos</li>
+                            </a>
+                            <a href="">
+                                <li>melhores produtos</li>
+                            </a>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="adress">
+                        <address>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker mr-3 mb-3"></i><span>Av. Paulista, 500 - São Paulo - SP</span></li>
+                                <li><i class="fas fa-phone-alt mr-3 mb-3"></i><span>tel.: 11 95262-2514</span></li>
+                                <li><i class="fas fa-phone-alt mr-3 mb-3"></i><span>tel.: 11 95262-2514</span></li>
+                                <li><i class="fas fa-envelope mr-3 mb-3"></i><span>novattu@atendimento.com.br</span></li>
+                            </ul>
+                        </address>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>
